@@ -2,14 +2,16 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavbarComponent from './components/NavbarComponent'
-
-
+import { Banner } from './components/Banner'
+import { Skills } from './components/Skills'
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div className='App'>
-        <NavbarComponent />        
+        <NavbarComponent /> 
+        <Banner/>  
+        <Skills/>     
     </div>
     
   )
